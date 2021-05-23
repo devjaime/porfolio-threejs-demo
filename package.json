@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "copy": "cp cara.png dist/ && cp moon.jpg dist/ && cp normal.jpg dist/ && cp space.jpg dist/",
+    "build": "vite build && npm run copy",
     "serve": "vite preview"
   },
   "devDependencies": {
